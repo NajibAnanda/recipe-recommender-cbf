@@ -1,0 +1,45 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+share/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js dependencies & Next.js build files
+frontend/node_modules/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+frontend/.env*.local
+
+# System/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Temp/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# AI Agent workspace assets/temp
+.gemini/
+.agents/
